@@ -11,7 +11,14 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <div id="app">
 
-        <h1>{{message}}</h1>
+        <div class="container">
+            
+            <h1>{{message}}</h1>
+    
+            <img v-bind:src="imgSource()" alt="logo vue">
+            
+        </div>
+
 
     </div>
     <script src="js/script.js"></script>

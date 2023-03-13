@@ -4,7 +4,12 @@ const { createApp } = Vue
     data() {
       return {
         message: 'Benvenuti su Vue!',
-        imgSource: "img/Logo",
       }
-    }
+    },
+    
+    methods: {
+        imgSource(){
+            return "../img/Logo.png"
+        }
+    },
   }).mount('#app')
